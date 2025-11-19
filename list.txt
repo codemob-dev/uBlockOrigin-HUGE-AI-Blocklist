@@ -3622,7 +3622,7 @@ google.com##a[href*="redbubble.com/people/digitalemporio/shop"]:upward(2):remove
 ! /////////////////
 
 ! // Google AI Overview
-google.com##.YzCcne:remove()
+google.com###rcnt > :not(#center_col):remove()
 
 ! // Google AI Mode search tab
 google.com##div[role="navigation"] span:has-text(AI Mode):upward(5):remove()
